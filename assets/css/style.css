@@ -59,8 +59,9 @@
 
 body {
   font-family: Doran FaNum;
-  color: #272829;
+  color: #004c38;
   direction: rtl;
+  background-color: #e2cba4;
 }
 
 a {
@@ -185,7 +186,7 @@ h6 {
 @media (max-width: 991px) {
   #header {
     width: 300px;
-    background: #fff;
+    background: #e2cba4;
     border-right: 1px solid #e6e9ec;
     right: -300px;
   }
@@ -223,13 +224,13 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #004c38;
+  color: #e2cba4;
   padding: 10px 18px;
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #e2cba4;
+  background: #c64b2c;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -244,7 +245,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #004c38;
+  color: #e2cba4;
 }
 
 @media (min-width: 992px) {
@@ -469,7 +470,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #45505b;
+  color: #c64b2c;
 }
 
 .section-title h2::before {
@@ -478,7 +479,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #fff;
   bottom: 1px;
   right: calc(50% - 60px);
 }
@@ -542,7 +543,7 @@ section {
   width: 100%;
   position: relative;
   text-align: center;
-  background: #fff;
+  /* background: #fff; */
 }
 
 .facts .count-box i {
@@ -641,7 +642,7 @@ section {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: #f7f8f9;
+  /* background: #f7f8f9; */
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -668,7 +669,7 @@ section {
   border-radius: 50px;
   right: -9px;
   top: 0;
-  background: #fff;
+  /* background: #fff; */
   border: 2px solid #004c38;
 }
 
@@ -684,7 +685,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: #fff;
+  /* background: #fff; */
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -901,7 +902,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: #eddbb7;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
 }
 
@@ -1115,16 +1116,16 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  /* background: #e2cba4; */
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #004c38;
+  color: #e2cba4;
   float: right;
   width: 44px;
   height: 44px;
-  background: #e2cba4;
+  background: #004c38;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1137,14 +1138,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #45505b;
+  color: #004c38;
 }
 
 .contact .info p {
   padding: 0 60px 0 0;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #728394;
+  color: #c64b2c;
 }
 
 .contact .info .email:hover i,
